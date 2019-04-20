@@ -83,7 +83,6 @@
                 <groupId>org.apache.zookeeper</groupId>
                 <artifactId>zookeeper</artifactId>
                 <version>3.5.4-beta</version>
-                <type>pom</type>
             </dependency>
             <dependency>
                 <groupId>junit</groupId>
