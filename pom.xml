@@ -29,8 +29,19 @@
     </repositories>
 
     <dependencyManagement>
-
         <dependencies>
+            <dependency>
+                <groupId>com.aries.hera</groupId>
+                <artifactId>hera-client-thrift</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.aries.email</groupId>
+                <artifactId>felt-contract-thrift</artifactId>
+                <version>1.0.1-SNAPSHOT</version>
+            </dependency>
+
+
             <dependency>
                 <groupId>com.google.code.gson</groupId>
                 <artifactId>gson</artifactId>
