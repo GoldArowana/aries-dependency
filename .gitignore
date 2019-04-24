@@ -1,3 +1,7 @@
 .idea
-*.iml
-target
+**/target
+**/*.iml
+**/.DS_Store
+**/*.log
+**/*.out
+**/*.versionsBackup
