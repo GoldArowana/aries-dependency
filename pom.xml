@@ -49,7 +49,21 @@
                 <artifactId>felt-contract-thrift</artifactId>
                 <version>1.0.1-SNAPSHOT</version>
             </dependency>
-
+            <dependency>
+                <groupId>com.aries.department</groupId>
+                <artifactId>athena-client-thrift</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.aries.hermes</groupId>
+                <artifactId>hermes-client-thrift</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.aries.user</groupId>
+                <artifactId>gaea-client</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
 
             <!--mybatis-->
             <dependency>
