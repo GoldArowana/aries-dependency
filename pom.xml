@@ -48,6 +48,7 @@
 
     <dependencyManagement>
         <dependencies>
+            <!--aries-->
             <dependency>
                 <groupId>com.aries.hera</groupId>
                 <artifactId>hera-client-thrift</artifactId>
@@ -78,6 +79,7 @@
                 <artifactId>Phoenix</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>
+
             <!--mybatis-->
             <dependency>
                 <groupId>org.mybatis</groupId>
@@ -313,6 +315,11 @@
                 </exclusions>
             </dependency>
             <dependency>
+                <groupId>javax.annotation</groupId>
+                <artifactId>jsr250-api</artifactId>
+                <version>1.0</version>
+            </dependency>
+            <dependency>
                 <groupId>javax.mail</groupId>
                 <artifactId>mail</artifactId>
                 <version>1.5.0-b01</version>
@@ -364,12 +371,28 @@
                     </exclusion>
                 </exclusions>
             </dependency>
+            <dependency>
+                <groupId>com.codahale.metrics</groupId>
+                <artifactId>metrics-core</artifactId>
+                <version>3.0.2</version>
+            </dependency>
+            <dependency>
+                <groupId>com.belerweb</groupId>
+                <artifactId>pinyin4j</artifactId>
+                <version>2.5.1</version>
+            </dependency>
 
             <!--test-->
             <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
                 <version>4.12</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.testng</groupId>
+                <artifactId>testng</artifactId>
+                <version>7.0.0-beta4</version>
                 <scope>test</scope>
             </dependency>
 
@@ -402,37 +425,17 @@
             </dependency>
 
 
-            <dependency>
-                <groupId>com.codahale.metrics</groupId>
-                <artifactId>metrics-core</artifactId>
-                <version>3.0.2</version>
-            </dependency>
-
-
-            <dependency>
-                <groupId>com.belerweb</groupId>
-                <artifactId>pinyin4j</artifactId>
-                <version>2.5.1</version>
-            </dependency>
-
-            <dependency>
-                <groupId>javax.annotation</groupId>
-                <artifactId>jsr250-api</artifactId>
-                <version>1.0</version>
-            </dependency>
-
+            <!--jfinal-->
             <dependency>
                 <groupId>com.google.zxing</groupId>
                 <artifactId>javase</artifactId>
                 <version>3.0.0</version>
             </dependency>
-
             <dependency>
                 <groupId>com.jfinal</groupId>
                 <artifactId>jfinal-undertow</artifactId>
                 <version>1.5</version>
             </dependency>
-
             <dependency>
                 <groupId>com.jfinal</groupId>
                 <artifactId>jfinal</artifactId>
@@ -938,14 +941,6 @@
                 <groupId>org.joda</groupId>
                 <artifactId>joda-convert</artifactId>
                 <version>2.2.1</version>
-            </dependency>
-
-            <!--test-->
-            <dependency>
-                <groupId>org.testng</groupId>
-                <artifactId>testng</artifactId>
-                <version>7.0.0-beta4</version>
-                <scope>test</scope>
             </dependency>
 
             <!--config-->
