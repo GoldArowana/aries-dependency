@@ -21,19 +21,28 @@
 
     <repositories>
         <repository>
-            <id>alimaven</id>
+            <id>ali-maven</id>
             <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
             <snapshots>
-                <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
+                <enabled>false</enabled>
+                <updatePolicy>daily</updatePolicy>
             </snapshots>
         </repository>
         <repository>
-            <id>maven-repo-master-arowana</id>
+            <id>repo2</id>
+            <name>Mirror from Maven Repo2</name>
+            <url>http://repo2.maven.org/maven2/</url>
+            <snapshots>
+                <enabled>false</enabled>
+                <updatePolicy>daily</updatePolicy>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>maven-repo-master</id>
             <url>https://raw.github.com/goldarowana/maven-repo/master/</url>
             <snapshots>
                 <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
+                <updatePolicy>daily</updatePolicy>
             </snapshots>
         </repository>
         <repository>
@@ -41,7 +50,7 @@
             <url>https://raw.github.com/KristinLee1997/maven-repo/master/</url>
             <snapshots>
                 <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
+                <updatePolicy>daily</updatePolicy>
             </snapshots>
         </repository>
     </repositories>
@@ -1009,6 +1018,18 @@
                 <version>3.2.9.RELEASE</version>
             </dependency>
 
+
+            <!--jmeter-->
+            <dependency>
+                <groupId>org.apache.jmeter</groupId>
+                <artifactId>ApacheJMeter_core</artifactId>
+                <version>5.1.1</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.jmeter</groupId>
+                <artifactId>ApacheJMeter_java</artifactId>
+                <version>5.1.1</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
     <build>
