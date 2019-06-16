@@ -69,6 +69,11 @@
                 <version>1.0.1-SNAPSHOT</version>
             </dependency>
             <dependency>
+                <groupId>com.aries.common</groupId>
+                <artifactId>playground</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
                 <groupId>com.aries.department</groupId>
                 <artifactId>athena-client-thrift</artifactId>
                 <version>1.0-SNAPSHOT</version>
