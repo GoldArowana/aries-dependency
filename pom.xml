@@ -14,7 +14,7 @@
         <github.global.server>github</github.global.server>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <slf4j.version>1.7.26</slf4j.version>
-        <log4j.version>2.11.2</log4j.version>
+        <log4j.version>2.13.3</log4j.version>
         <okio.version>2.2.2</okio.version>
         <vertx.version>3.7.0</vertx.version>
     </properties>
